@@ -523,14 +523,14 @@ var timeId = null;
 var slideTimeout = 7000;
 
 var birdTexts = [
-  "The <b>great tit</b> (<i>Parus major</i>) is a passerine bird in the tit family Paridae.",
-  "The <b>Eurasian bullfinch</b> (<i>Pyrrhula pyrrhula</i>) is a small passerine bird in the finch family Fringillidae.",
-  "The <b>dunnock</b> (<i>Prunella modularis</i>) is a small passerine, or perching bird in the Prunellidae family.",
-  "The <b>rock dove</b> or <b>rock pigeon</b> (<i>Columba livia</i>) is a member of the birdfamily Columbidae.",
-  "The <b>northern mockingbird</b> (<i>Mimus polyglottos</i>) a bird in the family Mimidae."
+  "貴女の配信を見ている時間は私にとって、掛け替えのないとても大切な時間です。",
+  "貴女の声を聴いたあの日から貴女の声を聴いていると、とっても幸せな気持ちになります。",
+  "配信ではスターに徹していてあまりコメントできないけれど、いつもすみっこで楽しく聴いています。",
+  "私にとって、貴女のペースで楽しく配信してくれている姿を見ることが何よりの楽しみです。",
+  "これからも、よろしくね。<br>大好きだよ。"
 ];
 
-var birdTitles = ["Great tit", "Bullfinch", "Dunnock", "Dove", "Mockingbird"];
+var birdTitles = ["なずな　へ", "なずな　へ", "なずな　へ", "なずな　へ", "なずな　へ"];
 
 function showText(index) {
   var slashText = birdTexts[index].replace(/[a-zA-Z0-9]/g, "/");
